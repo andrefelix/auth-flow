@@ -14,8 +14,8 @@ const LandingScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Text>Public Landing Screen</Text>
       <Button
-        title="Go to Sign In"
-        onPress={() => navigation.navigate("Sign In")}
+        title="Clique aqui para obter o modal de erro"
+        onPress={() => navigation.navigate("isso vai gerar um erro")}
       />
     </View>
   );
